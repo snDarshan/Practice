@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+    margin: 0;
+
+}
+.image1{
+    background-image: url(IMG/pic2.jpg);
+    height: 100%;
+
+}
+.image2{
+    background-image: url(IMG/pic3.jpg);
+    height: 400px;
+    display: flex;
+}
+.image3{
+    background-image: url(IMG/pic4.jpg);
+    height: 400px;
+}
+.image4{
+    background-image: url(IMG/pic5.jpeg);
+    height: 100%;
+}
+.image1, .image2, .image3, .image4{    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.text1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 30px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+.section01, .section02, .section03,.section04{
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    background-color: rgb(58, 57, 57);
+}
+
+.text2{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+    letter-spacing: 30px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text3, .text4{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+    letter-spacing: 15px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
